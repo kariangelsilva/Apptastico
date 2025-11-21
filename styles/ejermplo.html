@@ -1,0 +1,73 @@
+<div class="hero-buttons">
+  <a href="#contact" class="btn-primary">Request a quote</a>
+  
+  <span class="or-text">
+    or 
+    <a href="#portfolio" class="link-work">
+      <svg class="icon-laptop" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 17h18v-2H3v2z"/>
+        <path d="M21 5H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2z"/>
+        <path d="M8 21h8"/>
+        <path d="M12 17v4"/>
+      </svg>
+      See our recent work
+    </a>
+  </span>
+</div>
+<style> 
+body{
+    background-color: aquamarine;
+}
+ .hero-buttons {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;                    /* espacio entre botón y el "or" */
+  flex-wrap: wrap;              /* responsive en móvil */
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #00aaff;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 34px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 170, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #0088ee;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 170, 255, 0.5);
+}
+
+/* Texto "or See our recent work" */
+.or-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+.link-work {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);  /* la rayita sutil de la imagen */
+  padding-bottom: 2px;
+}
+
+.link-work:hover {
+  border-bottom-color: white;
+}
+
+.icon-laptop {
+  width: 16px;
+  height: 16px;
+}   
+</style>
+</div>
