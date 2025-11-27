@@ -9,7 +9,7 @@ P{
     font-family: "Nunito Sans", sans-serif;
 }
 button{
-    background: linear-gradient(#6fb7e9, #4a90d9); 
+  background: linear-gradient(#6fb7e9, #4a90d9); 
   border: 1px solid #357ec7;                     
   border-radius: 6px;                             
   padding: 10px 25px;
@@ -50,6 +50,10 @@ header img{
     justify-content:space-evenly;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 10dab2e (Finalizado)
 }
 .container img{
     width: 32%;
@@ -78,12 +82,10 @@ font-family: "Roboto", sans-serif
     align-items: center;
     font-size: 18px;
     font-family: "Nunito Sans", sans-serif;
-    margin-top: 80px;
+    margin-top: 50px;
     gap: 25px;
 }
-.contai img{
-    width: 20px;
-}
+
 .contai button{
      border: 1px solid #357ec7;                     
   border-radius: 30px;                             
@@ -91,11 +93,6 @@ font-family: "Roboto", sans-serif
   width: 40%;
   height: 50px;
 }
-
-
-
-
-
 .container1{
     display: flex;
     padding: 20px 100px 20px 100px;
@@ -110,46 +107,63 @@ font-family: "Roboto", sans-serif
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 1px;
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.86); 
-  padding-bottom: px;
+
 }
 .container2{
     display: flex;
     justify-content: space-evenly;
     margin: 100px;
+    flex-wrap: wrap;
     }
 .diseño img{
 width: 40%;
 }
 .diseño{
     display: flex;
+<<<<<<< HEAD
   flex-direction: column;    
   align-items: center;       
   text-align: center;        
  font-size: 18px;
   gap: 24px;
   width: 30%;
+=======
+    flex-direction: column;    
+    align-items: center;       
+    text-align: center;        
+    font-size: 15px;
+    gap: 20px;
+    width: 350px;
+    flex-wrap: wrap;
+>>>>>>> 10dab2e (Finalizado)
   
 }
-.diseño h3{
+.diseño h2{
   font-family: 'Open Sans', sans-serif;
     font-weight: 547;      
+<<<<<<< HEAD
 font-size:30px ;
+=======
+font-size:28px ;
+>>>>>>> 10dab2e (Finalizado)
 color: rgb(98, 108, 129);
 }
 .container3{
     margin: 100px;
     justify-content: space-between;
-} 
-.container3 h3{
     padding: 20px;
 }
+.container3 h3{
+    margin-left: 3%;
+}
 .contai3 img{
-    width: 22%;
+    width: 17rem;
 }
 .contai3{
     display: flex;
+<<<<<<< HEAD
     justify-content: space-evenly  ;
 }
 .container4{
@@ -162,6 +176,35 @@ color: rgb(98, 108, 129);
     font-size: 17px;
       line-height:1.5 ;
 }
+=======
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container4{
+    flex-wrap: wrap;
+     display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap:15%; 
+    margin-top: 40px;
+    width: 100%;
+    font-size: 17px;
+      line-height:1.5 ;
+}
+>>>>>>> 10dab2e (Finalizado)
 .diseño button{
     height: 50px;
     width: 36%;
@@ -171,6 +214,11 @@ color: rgb(98, 108, 129);
  display: flex;
  width: 500px;
  margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+}
+.clase{
+    margin-left: 18px;
 }
 
 .cuadr{
@@ -199,6 +247,55 @@ a{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.mi-boton{
+    color: #1a65b1;
+}
+hr{
+    border: none;
+    border-top: 1px solid #cbcbcb;
+    margin: 40px auto 10px;
+    width: 90%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    font-size: 15px;
+    gap: 100px;
+}
+footer img{
+    width: 15%;
+    margin-left: 10px;
+>>>>>>> 10dab2e (Finalizado)
+}
+
+.cuadr{
+    line-height: 1.7;
+    width: 500px;
+    margin-bottom: 27px;
+}
+.container4 h2, h3, h4{
+    font-size: 25px;
+    margin-bottom: 30px ;
+    font-family:"Nunito Sans", sans-serif;
+    color: rgb(98, 108, 129) ;
+    font-weight: 547; 
+    
+}
+.container4 h3{
+    font-size: 20px;
+    margin: 0px ;
+}
+.container4 h4{
+    color: #554a5f58;
+    font-size: 13px;
+    margin: 0%;
+}
+a{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+<<<<<<< HEAD
 .mi-boton{
     color: #1a65b1;
 }
@@ -290,3 +387,276 @@ footer img{
   }  
 }
  }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1279px) {
+header{
+    padding: 80px 90px 50px 100px;
+}
+header img{
+    width: 20%;
+}
+.container img{
+    width: 35%;
+}
+.lista{
+font-size: 20px;
+}
+.contain1 h2{
+font-size:280%; 
+}
+.contain1 p{
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+.contain1{
+    padding-top: 30px;
+    width: 45%;
+}
+.contai{
+    font-size: 100%;
+    margin-top: 20px;
+}
+.contai img{
+    width: 20px;
+}
+.contai button{
+  width:30%;
+  height: 40px;
+  font-size: 11px;
+}
+
+.diseño{        
+ font-size: 15px;
+}
+.diseño h2{
+font-size:22px;
+}
+.diseño button{
+font-size: 10px;
+ height: 30px;
+    width: 48%;
+    }
+
+    .contai3 img{
+        width: 10rem;
+    }
+}
+@media (max-width:920px) {
+       header{
+    padding: 50px 50px 50px 100px;
+}
+header img{
+    width: 20%;
+}
+.container img{
+    width: 40%;
+}
+.lista{
+font-size: 18px;
+}
+.contain1 h2{
+font-size:200%; 
+}
+.contain1 p{
+    font-size:100%;
+    margin-top: 10px;
+}
+
+.contain1{
+    padding-top: 20px;
+    width: 45%;
+}
+.contai{
+    font-size: 70%;
+    margin-top: 20px;
+}
+.contai img{
+    width: 20px;
+}
+.diseño img{
+    width: 100px;
+}
+.diseño{        
+ font-size: 15px;
+ padding: 10PX;
+}
+.diseño h2{
+font-size:20px;
+}
+.diseño button{
+font-size: 15px;
+ height: 35px;
+width: 50%;
+    }
+    .contai3 img{
+        width: 10rem;
+    }
+} 
+
+   @media (max-width:768px) {
+        header {
+            padding: 2%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+header img{
+    width: 30%;
+}
+    .lista {
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .container {
+        display: block;
+        height:800px;  
+        flex-direction: column;
+        text-align: center;   
+    }
+   .container img {
+        width: 60%;
+    }
+    .contain1 {
+        width: 90%;
+    }
+.contain1 img{
+    width: 20px;
+    
+}
+.contai{
+    justify-content: center;
+}
+.contai button{
+    width: 30%;
+    font-size: 10px;
+
+}
+.container1{
+    padding: 3%;
+}
+.container1 img{
+    width: 40px;
+}       
+    .container2{
+        margin: 50px;
+        width: 80%;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .diseño {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .diseño button{
+        width: 40%;
+        font-size: 8px;
+        height: 30px;
+    }
+  
+    
+    .container3{
+         margin-left: 30px ;
+        width: 80%;
+        flex-direction: column;
+    }
+     .cntainer3 h3{
+        font-size: 20px;
+        margin-left: 10px;
+     }
+    .contai3 img {
+        width: 110px;
+    }
+
+    .container4 {
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .cuadro{
+        width: 60%;
+        align-items: center;
+        flex-direction: column;
+        padding-left:140px;
+    }
+     .cuadr {
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cuadro img{
+        width: 130px;
+    }
+.hola{
+    width: 400px;
+}
+
+    footer {
+        flex-direction: column;
+        gap: 1px;
+        text-align: center;
+    }
+    footer img{
+        width: 15px;
+    }
+}
+
+
+
+    @media (max-width:481px) {
+        body{
+            background-color: #4d4e4f;
+        }
+    .container{
+        height: 600px;
+        font-size: 15px;
+    }
+    .container3 h3{
+        font-size: 22px;
+    }
+    .container4 h2{
+        font-size: 20px;
+    }
+    .cuadro h3{
+        font-size: 15px;
+    }
+    .cuadro{
+        padding-left: 65px;
+    }
+    .cuadr{
+        padding-left:30px ;
+        width: 200px;
+    }
+
+    .hola{
+        padding: 60px;
+    }
+
+    footer{
+    display: block;
+    padding: 0%;
+}
+
+}
+>>>>>>> 10dab2e (Finalizado)
